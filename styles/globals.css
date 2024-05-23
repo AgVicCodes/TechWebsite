@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--fg: #000000;
-		--bg-start: #eeeeee;
+		--bg-start: #ff0000;
 		--bg-end: #ffffff;
 	}
 }
