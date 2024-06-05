@@ -1,40 +1,5 @@
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+.background {
+    /* background-image: url("../public/img/building.jpg"); */
+    background-color: red;
+    color: red;
+}

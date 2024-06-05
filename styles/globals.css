@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
 
 :root {
 	--fg: #000000;
@@ -11,14 +12,28 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--fg: #000000;
-		--bg-start: #ff0000;
+		--bg-start: #e2e2e5;
 		--bg-end: #ffffff;
 	}
 }
 
-body {
-	color: rgb(var(--fg));
-	background: var(--bg-start);
+.background {
+    background-image: url("../public/img/building.jpg");
+    background-color: #71591B;
+	background-blend-mode: multiply;
 	background-repeat: no-repeat;
-	height: 100vh;
+	background-size: cover;
+	height: 70vh;
 }
+
+/* .nixie_header {
+	font-family: "Nixie One";
+} */
+
+.nixie_header {
+	font-family: "Nixie One";
+	font-weight: 400;
+	font-style: normal;
+}
+  
+
